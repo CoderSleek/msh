@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include<stdlib.h>
 #include<string.h>
+#include<unistd.h>
+#include<dirent.h>
+#include<sys/stat.h>
+#include<stdio.h>
+#include<limits.h>
+#include<libgen.h>
+#include<signal.h>
 
-int main() {
-    char * a="hello from another | world | welcome";
-    char *tok = NULL;
-    tok = strtok(a, "|");
-    if (tok) printf("%s\n", tok);
-    while(tok) {
-        tok = strtok(NULL, "|");
-        if (tok) printf("%s\n", tok);
-    }
-    return 0;
+int main(void) {
+    const char* str = "😊";
+    printf("%d", strlen(str));
 }

@@ -21,7 +21,9 @@
 #define INPUT_FAILED_ERROR "User Input failed\n"
 #define INPUT_FAILED_CODE 6
 
-#define MEMORY_ERROR "Could not allocate memoty\n"
+#define MEMORY_ERROR "Could not allocate memory\n"
 #define MEMORY_CODE 6
+
+#define COMMAND_NOT_FOUND_ERROR "Command not found\n"
 
 #endif
