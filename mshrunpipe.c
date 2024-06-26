@@ -1,7 +1,6 @@
 #define _GNU_SOURCE
 #include<unistd.h>
 #include<sys/wait.h>
-#include<stdio.h>
 
 #include "errors.h"
 #include "mshutils.h"

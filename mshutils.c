@@ -105,7 +105,7 @@ void set_env() {
 }
 
 void set_terminal(){
-    const char* clear_screen = "\e[1;1H\e[2J";
+    const char* clear_screen = "\e[1;1H\e[2J\e[3J";
     write(STDOUT_FILENO, clear_screen, strlen(clear_screen));//"\033[H\033[J";
     write(STDOUT_FILENO, MSH_STARTUP, strlen(MSH_STARTUP));
     return;

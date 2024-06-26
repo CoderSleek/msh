@@ -1,7 +1,5 @@
-#ifndef MSHERRORS_H
-#define MSHERRORS_H
-
-// #define INPUT_INVALID_ERROR "Empty Input\n"
+#ifndef MSH_ERRORS_H
+#define MSH_ERRORS_H
 
 #define FORKING_FAILED_ERROR "Forking Unsuccessful\n"
 #define FORKING_FAILED_CODE 1

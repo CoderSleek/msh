@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <string.h>
-#include <sys/types.h>
 #include <sys/stat.h>
 #include <dirent.h>
 #include <unistd.h>
@@ -27,7 +26,7 @@ int _change_dir_default(const char *dest, char *start) {
     struct stat info;
     enqueue(&queue, start);
     int return_value = 1, dest_len = strlen(dest); // default, failure directory not found
-
+    
     // full_path_len_limit for max string len post which will realloc & increase value
     int full_path_len_limit = 1024;
     char *full_path = (char*)malloc(sizeof(char) * full_path_len_limit);

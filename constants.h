@@ -1,5 +1,5 @@
-#ifndef MSHCONSTANTS_H
-#define MSHCONSTANTS_H
+#ifndef MSH_CONSTANTS_H
+#define MSH_CONSTANTS_H
 
 #define BUF_SIZE 500
 #define MSH_ENV "/.mshenv"
